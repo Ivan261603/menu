@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    display: block;
+    text-align: left;
+}
+.titulo{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.main-cont{
+    margin: 1.7em;
+    text-align: justify;
+}
+.barr{
+    display: none;
+}
+header{
+    width: 100%;
+}
+header nav{
+    width: 100%;
+    background : rgb(245, 54, 54);
+    z-index: 10;
+    margin: 0 auto;
+}
+header nav ul{
+    list-style:none;
+    text-align: right;
+}
+header nav ul li{
+    display: inline-block;
+    position: relative;
+}
+/*header nav ul li:hover{
+    background:  rgb(212, 54, 54);
+}*/
+header nav ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+header nav ul li .son{
+    display: none;
+    background-color: rgb(54, 54, 54);
+    position: absolute;
+}
+header nav ul li:hover .son{
+    display: block;
+    width: 150%;
+    z-index: 20;
+    text-align: left;
+}
+header nav ul li a span{
+    margin-right: 10px;
+}
+@media screen and (max-width:800px){
+    body{
+        padding-left: 68px;
+
+    }
+    .titulo{
+    display: none;
+    }
+    .barr{
+        display: block;
+        width: 100%;
+        color: white;
+        position: relative;
+        background: red;
+        top: 0;
+    }
+    
+   
+    .barr .bt-menu{
+        display: block;
+        padding: 20px;
+        color: white;
+        font-size: 23px;
+        font-weight: bold;
+        text-decoration: none;
+
+    }
+    
+    .barr span  {
+
+        float: right;
+        font-size: 40px;
+
+    }
+    header nav{
+        width: 70%;
+        height: calc(100% - 50px);
+        position: fixed;
+        overflow: scroll;
+       /*right: 100%;*/
+        margin: 0;
+        background: whitesmoke;
+    }
+    header nav ul li{
+        display: block;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    header nav ul li:hover{
+        background: white;
+    }
+    header nav ul li a{
+        padding: 12px;
+        display: block;
+        text-align: left;
+        color:rgb(222,1,8 );
+
+    }
+    header nav ul li .son{
+        width: 100%;
+        position: relative;
+        background: whitesmoke;
+        color: rgb(48,48,48,);
+    }
+    header nav ul li .son li a{
+        margin-left: 20px;
+    }
+    header nav ul li:hover .son{
+        display: none;
+    }
+    header nav ul li .icon-chevron-small-down{
+        float: right;
+    }
+    
+    header nav ul li .son{
+        margin-left: 10px;
+
+    }
+
+
+}
