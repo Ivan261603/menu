@@ -4,7 +4,7 @@ var contador=1;
 
 
 function main(){
-    $('.barr').click(function() {
+    $('.icon-list').click(function() {
         if (contador==1){
             $('nav').animate({
                 left:'0'
@@ -21,7 +21,7 @@ function main(){
     }
     });
     $('.submenu').click(function(){
-        $(this).son(".son").slideToggle();
+        $(this).children(".son").slideToggle();
     })
 
     

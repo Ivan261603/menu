@@ -61,7 +61,7 @@ header nav ul li a span{
 }
 @media screen and (max-width:800px){
     body{
-        padding-left: 68px;
+        padding-top: 68px;
 
     }
     .titulo{
@@ -71,7 +71,7 @@ header nav ul li a span{
         display: block;
         width: 100%;
         color: white;
-        position: relative;
+        position: fixed;
         background: red;
         top: 0;
     }
