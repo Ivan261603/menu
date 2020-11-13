@@ -1,0 +1,13 @@
+body{
+    background-color: whitesmoke;
+}
+
+.alin-derecha{
+    float: right;
+}
+.insignias a{
+    color: black;
+}
+td{
+    padding: 1em;
+}
