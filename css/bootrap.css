@@ -7,7 +7,11 @@ body{
 }
 .insignias a{
     color: black;
+   
 }
 td{
     padding: 1em;
+}
+.insignias{
+    width: 25%;
 }
