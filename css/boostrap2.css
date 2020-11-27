@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(223, 243, 253);
+}
+h2{
+    color: rgb(28, 29, 29);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+img{
+    width: 1300px;
+    height: 700px;
+    border-radius: 4em;
+    padding: 1em; 
+        
+
+}
+.carousel-inner{
+    width: 100%;
+    margin-right: 0%;
+    border:cornflowerblue solid;
+}
